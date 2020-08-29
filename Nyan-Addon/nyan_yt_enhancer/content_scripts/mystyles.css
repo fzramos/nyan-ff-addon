@@ -28,3 +28,9 @@
 .ytp-scrubber-button {
     display: none;
 }
+
+/*Youtube Chapters FullScreen Fix
+.ytp-chapter-hover-container {
+    height: 50%; 
+}
+*/

@@ -1,0 +1,44 @@
+{
+    "manifest_version": 2,
+    "name": "Nyan YouTube Enhancement",
+    "version": "2.0",
+    "background": {
+        "scripts": ["background.js"]
+      },
+
+
+
+    "description": "Repleaces the YouTube scrubber and progress bar with Nyan Cat and its Rainbow Streak.",
+    "homepage_url": "https://github.com/fzramos",
+    "icons": {
+        "48": "icons/nyan_cat_48.png",
+        "96": "icons/nyan_cat_96.png"
+    },
+
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_icon": "icons/nyan_cat_48.png",
+        "default_title": "Nyan YT Enhancer",
+        "default_popup": "popup/nyan_off.html"
+    },
+
+    "content_scripts": [
+        {
+			"matches": ["*://*.youtube.com/*"],
+			"css": ["content_scripts/mystyles.css"]
+        }
+    ],
+
+    "web_accessible_resources": [
+        "popup/images/0.png",
+        "popup/images/1.png",
+        "popup/images/2.png",
+        "popup/images/3.png",
+        "popup/images/4.png",
+        "popup/images/5.png",
+        "popup/images/background_nyan.gif"
+
+    ]
+
+
+}

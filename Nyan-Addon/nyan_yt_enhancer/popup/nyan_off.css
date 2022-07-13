@@ -1,9 +1,11 @@
 body {
     height: 500px;
-    width: 20px;
+    width: 20px; /* why is this failing , still has annoying scroll bar below*/
     background-image: url('images/background_nyan.gif');
     background-position: 100% 40%;
     background-size: "50% 50%";
+    overflow-y: hidden;  
+    overflow-x: hidden;
 }
 
 #bg {
@@ -12,6 +14,8 @@ body {
     height: inherit;
     width: 20px;
     background-position: bottom;
+
+    
 }
 
 #cat {
@@ -23,4 +27,5 @@ body {
     left: -35%;
     background-size: contain;
     top: 84%;
+
 }

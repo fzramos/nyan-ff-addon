@@ -1,32 +1,37 @@
 .ytp-play-progress {
-    padding: 2.5px .5px;
-    top: -2px;
-    background: -webkit-gradient(linear,  left top,  left bottom,
-	    color-stop(0.00, #f00),
-	    color-stop(17%, #f90),
-	    color-stop(33%, #ff0),
-	    color-stop(50%, #3f0),
-	    color-stop(67%, #09f),
-	    color-stop(83%, #63f));
+  padding: 2.5px 0.5px !important;
+  top: -2px !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #f00),
+    color-stop(17%, #f90),
+    color-stop(33%, #ff0),
+    color-stop(50%, #3f0),
+    color-stop(67%, #09f),
+    color-stop(83%, #63f)
+  ) !important;
 }
 
 .ytp-scrubber-container {
-    background: url('data:image/gif;base64,R0lGODlhIgAVAOMMAAAAAAAAAgEAAAIAAQABAAQAAepJlZmZmeuZn+man/qd4PfOoP///////////////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJBwAPACwAAAAAIgAVAAAEq/DJOYG9OFvK+wNLKI5kCHgeGCps67biiVLqqxgs7pozveS2oGIh631+QoUFODxtZqAk4HAA7CzUIkYSfemmWRi4Wsk6kcFx9ULNVsAXtK6lbtvJbzPaZajf7UUfcD9zdG0MdYhuNHFCY1hZa4scFns3LFMJCX9tmoE+hC9TCAhVkaaeKCqWmG0acKqVJTGcrqqurxYBuU8pZh+TXG6wUBcSu59cT71Gzc4PEQAh+QQJBwAPACwAAAAAIgAVAAAEpvDJOYG9OFvK+wNLKI5kCHgeGCps67biiVLqqxgs7pozveS2oGIh631+QpblxiJKNihQUgE4HACwU/UaRbp0VOu1aREXocfp1ooRcz/spxfcWrvvsi3G+w3f/3FwZj90dWIMdgeIgR96fC9rZWxXehwXj2BVCQmAVptFPoQ2VQgIV5OnnykiQpEajJYqJTGdsDRsGrm6M5WVlnG+UWgXKVDERsjJDxEAIfkECQcADwAsAAAAACIAFQAABKTwyUmrvfiCzbvfmbaMZGmOQEgBpOK+8Eum6sMusWK4O4zWNpwuR1QsaCpW8bUZGmkgjHIJOBwAslT1KhXCeort1XUUIyvTovjKsVrPKy+Y6a7b4ZKN9xu2+91IHjhzdFYMaweHbzZraTlmZmyLkI5OfQkJf1aYUBxBg48HCAhXb6acIiNqgB+LGjcnM5quGmwft7chW1q0E7s2vRaeeVFoUcMPEQAh+QQJBwAPACwAAAAAIgAVAAAEpfDJSau9+ILNu9+ZtoxkaY5ASAGk4r7wS6bqwy6xYrg7jNY2nC5HVCxoKlbxtRkaaSCMcgk4HACyVPUqFcJ6iu3VdRQjK9Oi+MqxWs8rL5jprtvhto33G7b73UgbbzhzdFYMaweIbxJraTlmZmyMWx17Tn0JCX9WmlqMQYSQBwgIV2+ono2BLUSRHqAWeicliXdSbx+6uxmVNrETvr69UXl4xqtnEQAh+QQJBwAPACwAAAAAIgAVAAAEqPDJSau9+ILNu9+ZtoxkaY5ASAGk4r7wS6bqwy6xYrg7jNY2nC5HVCxoKlbRteG5jjakaAk4HAC+jVVaUcZ61a0sfJ10JF4i+cqxbtHujnAIW7vv5eh9M4cZ7Hh7Zm1KPXVuDHaJb118RWRaW2yMFmlOClUJCYFumlxmI3QvVQgIV5Knnho3faNxH5QrHCclgIKVrx8cAbocGGEpwLhlwhm+aCCVyccUEQAh+QQJBwAPACwAAAAAIgAVAAAEo/DJSau9+ILNu9+ZtoxkaY5ASAGk4r7wS6bqwy6xYrg7jNY2nC6n2MQWKVCGRXQBDgfAUIF8RpdCojUq29IkymCut41yoNCvlcZsltHwKzjNyfac8TxaDW/HDFsMb4JpK2s4dy9eXmaFFXVuBwkJelCTX49ZPHgICFFpoJcYN1Mwix6OFhstWpWpj2YnJh8do3u0uBtytldrqoW+S0ocGmHEFREAOw==') no-repeat;
-    background-size: 36px;
-    width: 40px;
-    height: 24px;
-    margin-top: -3px;
-    margin-left:-6px;
+  background: url('data:image/gif;base64,R0lGODlhIgAVAOMMAAAAAAAAAgEAAAIAAQABAAQAAepJlZmZmeuZn+man/qd4PfOoP///////////////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJBwAPACwAAAAAIgAVAAAEq/DJOYG9OFvK+wNLKI5kCHgeGCps67biiVLqqxgs7pozveS2oGIh631+QoUFODxtZqAk4HAA7CzUIkYSfemmWRi4Wsk6kcFx9ULNVsAXtK6lbtvJbzPaZajf7UUfcD9zdG0MdYhuNHFCY1hZa4scFns3LFMJCX9tmoE+hC9TCAhVkaaeKCqWmG0acKqVJTGcrqqurxYBuU8pZh+TXG6wUBcSu59cT71Gzc4PEQAh+QQJBwAPACwAAAAAIgAVAAAEpvDJOYG9OFvK+wNLKI5kCHgeGCps67biiVLqqxgs7pozveS2oGIh631+QpblxiJKNihQUgE4HACwU/UaRbp0VOu1aREXocfp1ooRcz/spxfcWrvvsi3G+w3f/3FwZj90dWIMdgeIgR96fC9rZWxXehwXj2BVCQmAVptFPoQ2VQgIV5OnnykiQpEajJYqJTGdsDRsGrm6M5WVlnG+UWgXKVDERsjJDxEAIfkECQcADwAsAAAAACIAFQAABKTwyUmrvfiCzbvfmbaMZGmOQEgBpOK+8Eum6sMusWK4O4zWNpwuR1QsaCpW8bUZGmkgjHIJOBwAslT1KhXCeort1XUUIyvTovjKsVrPKy+Y6a7b4ZKN9xu2+91IHjhzdFYMaweHbzZraTlmZmyLkI5OfQkJf1aYUBxBg48HCAhXb6acIiNqgB+LGjcnM5quGmwft7chW1q0E7s2vRaeeVFoUcMPEQAh+QQJBwAPACwAAAAAIgAVAAAEpfDJSau9+ILNu9+ZtoxkaY5ASAGk4r7wS6bqwy6xYrg7jNY2nC5HVCxoKlbxtRkaaSCMcgk4HACyVPUqFcJ6iu3VdRQjK9Oi+MqxWs8rL5jprtvhto33G7b73UgbbzhzdFYMaweIbxJraTlmZmyMWx17Tn0JCX9WmlqMQYSQBwgIV2+ono2BLUSRHqAWeicliXdSbx+6uxmVNrETvr69UXl4xqtnEQAh+QQJBwAPACwAAAAAIgAVAAAEqPDJSau9+ILNu9+ZtoxkaY5ASAGk4r7wS6bqwy6xYrg7jNY2nC5HVCxoKlbRteG5jjakaAk4HAC+jVVaUcZ61a0sfJ10JF4i+cqxbtHujnAIW7vv5eh9M4cZ7Hh7Zm1KPXVuDHaJb118RWRaW2yMFmlOClUJCYFumlxmI3QvVQgIV5Knnho3faNxH5QrHCclgIKVrx8cAbocGGEpwLhlwhm+aCCVyccUEQAh+QQJBwAPACwAAAAAIgAVAAAEo/DJSau9+ILNu9+ZtoxkaY5ASAGk4r7wS6bqwy6xYrg7jNY2nC6n2MQWKVCGRXQBDgfAUIF8RpdCojUq29IkymCut41yoNCvlcZsltHwKzjNyfac8TxaDW/HDFsMb4JpK2s4dy9eXmaFFXVuBwkJelCTX49ZPHgICFFpoJcYN1Mwix6OFhstWpWpj2YnJh8do3u0uBtytldrqoW+S0ocGmHEFREAOw==')
+    no-repeat;
+  background-size: 36px;
+  width: 40px;
+  height: 24px;
+  margin-top: -3px;
+  margin-left: -6px;
 }
 
 .ytp-scrubber-container:hover {
-    background-size:40px;
-    margin-top:-5px;
-    margin-left:-8px;
+  background-size: 40px;
+  margin-top: -5px;
+  margin-left: -8px;
 }
 
 .ytp-scrubber-button {
-    display: none;
+  display: none;
 }
 
 /*Youtube Chapters FullScreen Fix
